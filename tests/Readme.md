@@ -8,6 +8,7 @@ The test cases were designed in Excel, converted to JSON, and executed through P
 - **Positive Functional Tests (`Pos_Fun_*`)** – everyday sentences, questions, requests, blessings, formatted inputs (dates, currency, measurements).
 - **Negative Functional Tests (`Neg_Fun_*`)** – invalid inputs such as typos, slang, unsupported characters, excessive vowels, and joined words.
 - **UI Tests (`Pos_UI_*`)** – validation of the "Copy to Clipboard" functionality.
+- To run the tests first you need to convert the excel file to json using the script.
 
 
 ## Tools & Dependencies
