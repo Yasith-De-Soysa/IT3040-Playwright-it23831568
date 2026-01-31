@@ -1,0 +1,212 @@
+[
+  {
+    "id": "Pos_Fun_0001",
+    "name": "Short everyday statement about work",
+    "input": "mata vaedata yanna oonee. ",
+    "expected": "මට වැඩට යන්න ඕනේ. "
+  },
+  {
+    "id": "Pos_Fun_0002",
+    "name": "Long mixed-language input with slang + typo causes incorrect conversion",
+    "input": "mama nuvara yanavaa, haebaeyi baappaa gedhara naeththan yannee naee.",
+    "expected": "මම නුවර යනවා, හැබැයි බාප්පා ගෙදර නැත්තන් යන්නේ නෑ."
+  },
+  {
+    "id": "Pos_Fun_0003",
+    "name": "Short question about time",
+    "input": "api kalin yannee kohomadha?",
+    "expected": "අපි කලින් යන්නේ කොහොමද?"
+  },
+  {
+    "id": "Pos_Fun_0004",
+    "name": "Polite imperative to assist children\r\n",
+    "input": "karuNaakara dharuvaagee gedhara vaeda balanna.",
+    "expected": "කරුණාකර දරුවාගේ ගෙදර වැඩ බලන්න."
+  },
+  {
+    "id": "Pos_Fun_0005",
+    "name": "Cause and effect sentence with negation\r\n",
+    "input": "raeeta vaessoth paara lissana nisaa api noyaa imu.",
+    "expected": "රෑට වැස්සොත් පාර ලිස්සන නිසා අපි නොයා ඉමු."
+  },
+  {
+    "id": "Pos_Fun_0006",
+    "name": "Convert a short blessing phrase\r\n",
+    "input": "suba vishraama dhiviyak veevaa.",
+    "expected": "සුබ විශ්‍රාම දිවියක් වේවා."
+  },
+  {
+    "id": "Pos_Fun_0007",
+    "name": "Convert a short imperative phrase\r\n",
+    "input": "dhana gahanna.",
+    "expected": "දන ගහන්න."
+  },
+  {
+    "id": "Pos_Fun_0008",
+    "name": "Convert a short positive statement about completed action\r\n",
+    "input": "eyaa eeka hariyata karalaa.",
+    "expected": "එයා ඒක හරියට කරලා."
+  },
+  {
+    "id": "Pos_Fun_0009",
+    "name": "Convert a negative statement \r\n",
+    "input": "api adha sellam karannee naehae.",
+    "expected": "අපි අද සෙල්ලම් කරන්නේ නැහැ."
+  },
+  {
+    "id": "Pos_Fun_0010",
+    "name": "Convert a simple request \r\n",
+    "input": "maava ekkan yanna puluvandha?",
+    "expected": "මාව එක්කන් යන්න පුලුවන්ද?"
+  },
+  {
+    "id": "Pos_Fun_0011",
+    "name": "Convert a simple reponse\r\n",
+    "input": "naee, adha eyaa nivaadu.",
+    "expected": "නෑ, අද එයා නිවාඩු."
+  },
+  {
+    "id": "Pos_Fun_0012",
+    "name": "Convert a informal phrase\r\n",
+    "input": "adoo, eeka aran heta varen.",
+    "expected": "අඩෝ, ඒක අරන් හෙට වරෙන්."
+  },
+  {
+    "id": "Pos_Fun_0013",
+    "name": "Convert a frequently used day-to-day expression \r\n",
+    "input": "mata badaginiyi.",
+    "expected": "මට බඩගිනියි."
+  },
+  {
+    "id": "Pos_Fun_0014",
+    "name": "Convert a repeated word segment. \r\n",
+    "input": "baee baee.",
+    "expected": "බෑ බෑ."
+  },
+  {
+    "id": "Pos_Fun_0015",
+    "name": "Convert a sentence with a specific place name",
+    "input": "colombo vala godak vaessaa.",
+    "expected": "colombo වල ගොඩක් වැස්සා."
+  },
+  {
+    "id": "Pos_Fun_0016",
+    "name": "Convert a sentence with currency format",
+    "input": "mata dhenna Rs. 500.",
+    "expected": "මට දෙන්න Rs. 500."
+  },
+  {
+    "id": "Pos_Fun_0017",
+    "name": "Convert a sentence with measurement units",
+    "input": "meeka 10kg barayi.",
+    "expected": "මේක 10kg බරයි."
+  },
+  {
+    "id": "Pos_Fun_0018",
+    "name": "Convert a sentence with date format",
+    "input": "17/03/1996 api looka kusalaanaya dhinnaa.",
+    "expected": "17/03/1996 අපි ලෝක කුසලානය දින්නා."
+  },
+  {
+    "id": "Pos_Fun_0019",
+    "name": "Convert a sentence with date format",
+    "input": "mata thaniyama magee brush eken vitharak paint karalaa meeka ivara karanna baeriveyi. mata help ekak dhenavadha?",
+    "expected": "මට තනියම මගේ brush එකෙන් විතරක් paint කරලා මේක ඉවර කරන්න බැරිවෙයි. මට help එකක් දෙනවද?"
+  },
+  {
+    "id": "Pos_Fun_0020",
+    "name": "Convert a plural sentence",
+    "input": "api sellam karamu.",
+    "expected": "අපි සෙල්ලම් කරමු."
+  },
+  {
+    "id": "Pos_Fun_0021",
+    "name": "Convert a future tense sentence.\r\n",
+    "input": "api labana avurudhdhee geyak hadhamu.",
+    "expected": "අපි ලබන අවුරුද්දේ ගෙයක් හදමු."
+  },
+  {
+    "id": "Pos_Fun_0022",
+    "name": "Convert a multiple line segment.\r\n",
+    "input": "No.35, \r\nmirisvaththa, \r\npiliyandhala.",
+    "expected": "No.35, \r\nමිරිස්වත්ත, \r\nපිලියන්දල."
+  },
+  {
+    "id": "Pos_Fun_0023",
+    "name": "Convert a sentence with pronoun variations\r\n",
+    "input": "mama eyaalaa ekka yanavaa.",
+    "expected": "මම එයාලා එක්ක යනවා."
+  },
+  {
+    "id": "Pos_Fun_0024",
+    "name": "Convert a long sentence with multiple clausess\r\n",
+    "input": "mama hithuvaa adha vaessa nisaa api yanna oonee naee kiyalaa, eth oyaa enna kiyapu nisaa mama laeesthivelaa innavaa udhe 10.00 am vena kal. api yanavadha balanna?oyaa kiyanne mokakdha? mama dhaenma enna ooneedha naethnam thava tikakin ennadha?",
+    "expected": "මම හිතුවා අද වැස්ස නිසා අපි යන්න ඕනේ නෑ කියලා, එත් ඔයා එන්න කියපු නිසා මම ලෑස්තිවෙලා ඉන්නවා උදෙ 10.00 am වෙන කල්. අපි යනවද බලන්න?ඔයා කියන්නෙ මොකක්ද? මම දැන්ම එන්න ඕනේද නැත්නම් තව ටිකකින් එන්නද?\r\n\r\n"
+  },
+  {
+    "id": "Neg_Fun_0001",
+    "name": "Joined words without spaces\r\n",
+    "input": "mamaeliyataenavaa",
+    "expected": "මම එලියට එනවා"
+  },
+  {
+    "id": "Neg_Fun_0002",
+    "name": "Handling of slang with excessive vowel repetition",
+    "input": "adoooooo kohomadha?",
+    "expected": "අඩෝ කොහොමද?"
+  },
+  {
+    "id": "Neg_Fun_0003",
+    "name": "Typographical error (double consonant typo)",
+    "input": "mamama gedhara yanavaa.",
+    "expected": "මම ගෙදර යනවා."
+  },
+  {
+    "id": "Neg_Fun_0004",
+    "name": "Mixed Singlish with non-standard English shorthand",
+    "input": "mama dhaen office ekata cmng.",
+    "expected": "මම දැන් office එකට එනවා."
+  },
+  {
+    "id": "Neg_Fun_0005",
+    "name": "Use of unsupported special characters (@)",
+    "input": "api kaeema kamudha? @home.",
+    "expected": "අපි කෑම කමුද? ගෙදරදී"
+  },
+  {
+    "id": "Neg_Fun_0006",
+    "name": "Phonetic ambiguity with 'v' and 'w'",
+    "input": "wathura dhenna.",
+    "expected": "වතුර දෙන්න."
+  },
+  {
+    "id": "Neg_Fun_0007",
+    "name": "Using capitals unnecessarily",
+    "input": "mama Kanavaa.",
+    "expected": "මම කනවා."
+  },
+  {
+    "id": "Neg_Fun_0008",
+    "name": "Incorrect character combination for nasalized consonants",
+    "input": "singharaaja vanaantharaya.",
+    "expected": "සිංහරාජ වනාන්තරය"
+  },
+  {
+    "id": "Neg_Fun_0009",
+    "name": "Incorrect character combination for nasalized consonants",
+    "input": "mama eka aathata visik kala. ",
+    "expected": "මම ඒක ඈතට විසික් කලා."
+  },
+  {
+    "id": "Neg_Fun_0010",
+    "name": "Incorrect character combination for nasalized consonants",
+    "input": "m a m a a d h a y a n a v a a. ",
+    "expected": "මම අද යනවා."
+  },
+  {
+    "id": "Pos_UI_0001",
+    "name": "Verify the \"Copy to Clipboard\" functionality",
+    "input": "suba dhavasak ",
+    "expected": "සුබ දවසක්"
+  }
+]
