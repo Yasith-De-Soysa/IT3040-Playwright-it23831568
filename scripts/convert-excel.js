@@ -9,7 +9,7 @@ const sheet = workbook.Sheets[sheetName];
 // Convert to JSON
 const jsonData = xlsx.utils.sheet_to_json(sheet, { defval: "" });
 
-// Only keep the columns we care about, and skip empty rows
+
 const testCases = jsonData
   .map(row => ({
     id: row['TC ID'],
