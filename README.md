@@ -20,6 +20,7 @@ npm install
 npm install xlsx
 
 **you need to convert excel file or test cases to json using this command. then you can run tests.**
+
 node scripts/convert-excel.js
 
 npx playwright test
